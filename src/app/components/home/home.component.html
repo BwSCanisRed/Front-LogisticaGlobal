@@ -1,0 +1,162 @@
+<style>/* Estilos generales */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #343a40;
+        color: white;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo h1 {
+        margin-left: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin-right: 20px;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 20px;
+        background-color: #e8e8e8;
+    }
+    
+    .hero-text {
+        max-width: 50%;
+    }
+    
+    .hero-text h2 {
+        font-size: 2.5rem;
+        color: #333;
+    }
+    
+    .hero-text p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    
+    .hero-image img {
+        width: 40%;
+        border-radius: 10px;
+    }
+    
+    .noticias {
+        background-color: white;
+        padding: 40px 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .noticias h2 {
+        color: #343a40;
+        margin-bottom: 10px;
+    }
+    
+    .noticias p, .noticias ul {
+        color: #555;
+    }
+    
+    .noticias ul {
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    .noticias ul li {
+        padding-left: 15px;
+        position: relative;
+    }
+    
+    .noticias ul li::before {
+        content: "•";
+        color: #007bff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 1.5rem;
+    }
+    
+    footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    .group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+}
+
+</style>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistica Global</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Logistica Global </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Gestion de transporte y logistica</h2>
+        </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Logistica Global . Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
