@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b676b;
+  }
+  
+  .container {
+    display: flex;
+    width: 800px; /* Ajusta este valor según necesites */
+    height: 500px; /* Ajusta este valor según necesites */
+    background-color: #e5f2ec;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
